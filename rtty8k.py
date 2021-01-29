@@ -1,14 +1,15 @@
 import wave
 import numpy as np
-fname = 'rtty3s.wav'     # should be specify the filename.
+
+fname='rtty3s.wav' # should be specify the filename.
+Smp= 8000          # Sampling Rate
+FQm= Smp/914.0     # Mark Frequency 914Hz
+FQs= Smp/1086.0    # Space Frequency 1086Hz
+Baud= 176          # Smp/45.45 but shuold be Integer
+
 waveFile = wave.open(fname, 'r')
 buf = waveFile.readframes(-1)
 waveFile.close()
-
-Smp = 8000          # Sampling Rate
-FQm = Smp/914.0     # Mark Frequency 914Hz
-FQs = Smp/1086.0    # Space Frequency 1086Hz
-Baud = 176          # Smp/45.45 but shuold be Integer
 
 Im=[];Qm=[];Is=[];Qs=[]
 for i in range(0, 8000):
