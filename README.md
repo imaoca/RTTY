@@ -18,4 +18,4 @@ This program assumes 8KHz sampling, mono, 8bit quantization, and no sign.
 python rtty8k.py > rtty.csv
 ~~~
 Demodulation example
-![](img/plot.png)
+![](img/2021-02-01.png)
