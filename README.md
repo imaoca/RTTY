@@ -29,8 +29,9 @@ for j in range(waveFile.getnframes()):
 waveFile.close()
 ~~~
 ## Sample sound file
-should be convet to wave format.
-[]: https://en.wikipedia.org/wiki/File:RTTY.ogg "it is from wikipedia"
+should be convet to wave format.<p>
+https://en.wikipedia.org/wiki/File:RTTY.ogg <p>
+it is from wikipedia<p>
 
 ## Usage
 Please specify an appropriate audio file for the input.
