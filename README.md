@@ -28,6 +28,10 @@ for j in range(waveFile.getnframes()):
             mq.pop(0);mi.pop(0);sq.pop(0);si.pop(0)
 waveFile.close()
 ~~~
+## Sample sound file
+should be convet to wave format.
+[](https://en.wikipedia.org/wiki/File:RTTY.ogg)
+
 ## Usage
 Please specify an appropriate audio file for the input.
 This program assumes 8KHz sampling, mono, 8bit quantization, and no sign.
