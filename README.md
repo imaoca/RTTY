@@ -30,7 +30,7 @@ waveFile.close()
 ~~~
 ## Sample sound file
 should be convet to wave format.
-[](https://en.wikipedia.org/wiki/File:RTTY.ogg)
+[]: https://en.wikipedia.org/wiki/File:RTTY.ogg "it is from wikipedia"
 
 ## Usage
 Please specify an appropriate audio file for the input.
