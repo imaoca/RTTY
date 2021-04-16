@@ -44,11 +44,11 @@ FQs= smp/1086.0    # Space Frequency 1086Hz
 - fname
 should be specify the filename.
 - smp
-Sampling Rate
+Sampling Rate.
 - FQm     
-Mark Frequency 
+Mark Frequency. 
 - FQs
-Space Frequency 
+Space Frequency. 
 
 
 ## Usage
