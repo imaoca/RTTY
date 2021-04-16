@@ -41,13 +41,13 @@ smp= 8000          # Sampling Rate
 FQm= smp/914.0     # Mark Frequency 914Hz
 FQs= smp/1086.0    # Space Frequency 1086Hz
 ~~~
-- fname
+- fname   
 should be specify the filename.
-- smp
+- smp   
 Sampling Rate.
 - FQm     
 Mark Frequency. 
-- FQs
+- FQs   
 Space Frequency. 
 
 
