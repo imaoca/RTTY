@@ -51,8 +51,12 @@ Mark Frequency.
 Space Frequency. 
 
 ## How to specify the MARK & SPACE frequency
-![](img/mark.png)
+To find MARK & SPACE frequences, You can use any spectrum analyze tools on your PC. 
+
+- MARK Frequency about 915Hz    
 ![](img/space.png)
+- SPACE Frequency is about 1085Hz   
+![](img/mark.png)
 
 
 ## Usage
