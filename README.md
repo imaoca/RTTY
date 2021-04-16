@@ -34,7 +34,7 @@ https://en.wikipedia.org/wiki/File:RTTY.ogg <p>
 it is from wikipedia<p>
       
 ## Parameters
-Some parameters in the source code need to be modified according to the audio file to be input.
+Some parameters in the source code need to be modified according to the audio file to be input. 
 ~~~
 fname='rtty3s.wav' # should be specify the filename.
 smp= 8000          # Sampling Rate
@@ -51,7 +51,8 @@ Mark Frequency.
 Space Frequency. 
 
 ## How to specify the MARK & SPACE frequency
-To find MARK & SPACE frequences, You can use any spectrum analyze tools on your PC. 
+To find MARK & SPACE frequences, You can use any spectrum analyze tools on your PC. For example I use Sazanami Version 1.7.3 2020/10/22
+. 
 
 - MARK Frequency about 915Hz    
 ![](img/space.png)
