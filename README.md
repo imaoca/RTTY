@@ -50,6 +50,10 @@ Mark Frequency.
 - FQs   
 Space Frequency. 
 
+## How to specify the MARK & SPACE frequency
+![](img/mark.png)
+![](img/space.png)
+
 
 ## Usage
 Please specify an appropriate audio file for the input.
