@@ -1,4 +1,4 @@
-# Pytonによるラジオテレタイプの復調プログラム
+# Pythonによるラジオテレタイプの復調プログラム
 This is a Python program to demodulate the radio teletype known as FSK modulation.
 This is the simplest example, and only the Terminal Unit part of the RTTY is implemented. The rest should be coded according to ITA2, for example.
 
