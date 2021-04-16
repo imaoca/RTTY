@@ -1,8 +1,8 @@
-# Demodulation Radio Teletype (RTTY) in Python
+# Pytonによるラジオテレタイプの復調プログラム
 This is a Python program to demodulate the radio teletype known as FSK modulation.
 This is the simplest example, and only the Terminal Unit part of the RTTY is implemented. The rest should be coded according to ITA2, for example.
 
-## Description of the source code
+## ソースコード
 
 ~~~
 import wave
@@ -28,12 +28,12 @@ for j in range(waveFile.getnframes()):
             mq.pop(0);mi.pop(0);sq.pop(0);si.pop(0)
 waveFile.close()
 ~~~
-## Sample sound file
+## サンプル音声ファイル
 should be convet to wave format.<p>
 https://en.wikipedia.org/wiki/File:RTTY.ogg <p>
 it is from wikipedia<p>
       
-## Parameters
+## パラメーター
 Some parameters in the source code need to be modified according to the audio file to be input. 
 ~~~
 fname='rtty3s.wav' # should be specify the filename.
@@ -50,7 +50,7 @@ Mark Frequency.
 - FQs   
 Space Frequency. 
 
-## How to specify the MARK & SPACE frequency
+## マークとスペースの周波数の設定方法
 To find MARK & SPACE frequences, You can use any spectrum analyze tools on your PC. For example I use Sazanami Version 1.7.3 2020/10/22
 . 
 
@@ -60,7 +60,7 @@ To find MARK & SPACE frequences, You can use any spectrum analyze tools on your 
 ![](img/mark.png)
 
 
-## Usage
+## 使い方
 Please specify an appropriate audio file for the input.
 This program assumes 8KHz sampling, mono, 8bit quantization, and no sign.
 ~~~
