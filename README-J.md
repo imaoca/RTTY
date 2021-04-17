@@ -46,9 +46,9 @@ should be specify the filename.
 - smp   
 Sampling Rate.
 - FQm     
-Mark Frequency. 
+smp / Mark Frequency. 
 - FQs   
-Space Frequency. 
+smp / Space Frequency. 
 
 ## マークとスペースの周波数の設定方法
 To find MARK & SPACE frequences, You can use any spectrum analyze tools on your PC. For example I use Sazanami Version 1.7.3 2020/10/22
