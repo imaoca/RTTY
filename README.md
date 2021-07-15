@@ -30,7 +30,7 @@ waveFile.close()
 ~~~
 ## Sample sound file
 should be convet to wave format.<p>
-The input audio file should have a sampling rate of 8000 Hz and a quantization bit rate of 8 bits.<p>
+The input audio file should have a sampling rate of 8000 Hz and a quantization bit rate of unsigned 8 bits.<p>
 https://en.wikipedia.org/wiki/File:RTTY.ogg <p>
 it is from wikipedia<p>
       
